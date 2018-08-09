@@ -1,4 +1,4 @@
-n=int(raw_input("Enter number:"))
+n=int(input())
 temp=n
 rev=0
 while(n>0):
@@ -7,5 +7,6 @@ while(n>0):
 	n=n//10
 	if(temp==rev):
 		print("yes")
-		else:
-			print("no")
+		break
+else:
+	print("no")
