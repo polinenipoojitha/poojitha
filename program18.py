@@ -1,7 +1,7 @@
 lower = 100
 upper = 200
 for num in range(lower,upper + 1):
-	order = len(str(sum))
+	order = len(str(num))
 	sum = 0
 	temp = num
 	while temp > 0:
