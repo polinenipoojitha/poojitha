@@ -1,4 +1,4 @@
-num = 7
+num = int(raw_input())
 factorial = 1
 if num < 1:
 	print("sorry,factorial does not exist for negative numbers")
