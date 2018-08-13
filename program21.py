@@ -1,10 +1,10 @@
 def sumofAP(n,a,d):
     sum = 0
-    i = 0
-    while i < n:
+    p = 0
+    while p < n:
           sum = sum + a
           a = a + d
-          i = i + 1
+          p = p + 1
     return sum
 n = 3
 a = 1
