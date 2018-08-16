@@ -1,6 +1,6 @@
 time = int(input())
-hour = time // 3600
-time %=3600
+hour = time // 60
+time %=60
 minutes = time // 60
 time %=60
 minutes = time
