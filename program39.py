@@ -1,2 +1,2 @@
-list = [5, 4, 3, 2, 1, 10, 6, 7, 8, 9]
+list = [int(x) for x in raw_input().split]
 print max(list)
