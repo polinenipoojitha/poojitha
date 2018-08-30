@@ -1,6 +1,6 @@
-n=int(input())
+u=int(input())
 count=0
-while(n>0):
+while(u>0):
 	count=count+1
-	n=n//10
+	u=u//10
 print(count)
