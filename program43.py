@@ -1,3 +1,3 @@
-n1,n2=map(str,raw_input().split())
-n=n1+n2
-print n
+b1,b2=map(str,raw_input().split())
+b=b1+b2
+print b
