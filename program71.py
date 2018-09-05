@@ -1,5 +1,5 @@
 string=raw_input()
 if(string==string[::-1]):
-	print("Yes")
+	print("yes")
 else:
-	print("No")
+	print("no")
