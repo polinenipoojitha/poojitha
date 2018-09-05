@@ -1,5 +1,5 @@
-string=raw_input()
-if(string==string[::-1]):
+str=raw_input()
+if(str==str[::-1]):
 	print("yes")
 else:
 	print("no")
